@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8069067b655f60107f44161e407c0bbb</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_app_eng_studio_project">
+    <sn_app_eng_studio_project action="INSERT_OR_UPDATE">
+        <created_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by>
+        <description/>
+        <last_opened>2021-04-10 18:22:14</last_opened>
+        <last_opened_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</last_opened_by>
+        <name>admin's project</name>
+        <number>CSP0001001</number>
+        <short_description/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-10 18:22:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8069067b655f60107f44161e407c0bbb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-10 18:22:14</sys_updated_on>
+    </sn_app_eng_studio_project>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 15:05:35</sys_created_on>
+        <sys_id>12b2020565e364107f44161e407c0ba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>admin's project</sys_name>
+        <sys_package display_value="Peer Review" source="x_1234_peer_review">fb59c63765df60107f44161e407c0b45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name>sys_metadata_link_12b2020565e364107f44161e407c0ba2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 15:05:35</sys_updated_on>
+        <tablename>sn_app_eng_studio_project</tablename>
+    </sys_metadata_link>
+</record_update>
