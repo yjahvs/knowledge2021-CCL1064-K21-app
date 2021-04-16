@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Quote</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var output;
+	
+	try {
+		var inputs = {};
+		var result = sn_fd.FlowAPI.executeAction('x_1234_peer_review.get_github_zen_quote', inputs);
+		output = result['quote'];
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+	
+	return output;
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1234_peer_review/github_zen/quote</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/quote</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-16 05:04:27</sys_created_on>
+        <sys_id>417982e5c06720107f447acd91310ec8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quote</sys_name>
+        <sys_package display_value="Peer Review" source="x_1234_peer_review">fb59c63765df60107f44161e407c0b45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Peer Review">fb59c63765df60107f44161e407c0b45</sys_scope>
+        <sys_update_name>sys_ws_operation_417982e5c06720107f447acd91310ec8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-16 05:04:27</sys_updated_on>
+        <web_service_definition display_value="GitHub Zen">8486c265c06720107f447acd91310e05</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
